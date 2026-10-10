@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:movieapp/home_page.dart';
+import 'package:movieapp/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,9 +20,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Poppins',
         scaffoldBackgroundColor: const Color(0xFF112028),
-        //colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: homePage(),
+      home: LoginPage(),
     );
   }
 }
