@@ -14,7 +14,7 @@ class ReuseButtonAuth extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute<void>(
-            builder: (context) => const homePage(),
+            builder: (context) => const HomePage(),
           ),
         );
       },
